@@ -49,4 +49,4 @@ def delete(Sno):
   return redirect('/')
 
 if __name__ == '__main__':
-  app.run(debug= True,port=8000)
+  app.run(debug=False,port=8000,host="0.0.0.0")
